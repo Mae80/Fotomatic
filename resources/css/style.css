@@ -38,6 +38,7 @@ html {
 
 header {
   position: fixed;
+  z-index: 1;
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
@@ -59,14 +60,27 @@ header nav ul {
 
 nav li {
   padding-left: 3.5rem;
-}
+  }
 
 nav a {
   vertical-align: bottom;
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
-}
+  }
+
+  .logo,
+  nav a {
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .logo {
+    font-size: 1.3rem;
+    letter-spacing: 0.125rem;
+  }
 
 header .icon {
   width: 1rem;
