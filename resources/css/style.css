@@ -5,34 +5,7 @@ html {
   font-size: 16px;
 }
 
-.main-content {
-  position: relative;
-  top: 5.3125rem; /* To offset for fixed header. */
-}
 
-.center {
-  text-align: center;
-}
-
-.button {
-  border-radius: 4px;
-  background-color: #4a4a4a;
-  color: white;
-}
-
-.image-container {
-  overflow: hidden;
-}
-
-.image-container img {
-  display: block;
-}
-
-@media only screen and (max-width: 760px) {
-  .main-content {
-    top: 2.5625rem;
-  }
-}
 
 /* Header */
 
@@ -42,6 +15,7 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+
 }
 
 header .content {
@@ -77,10 +51,6 @@ nav a {
     line-height: 1.6;
   }
 
-  .logo {
-    font-size: 1.3rem;
-    letter-spacing: 0.125rem;
-  }
 
 header .icon {
   width: 1rem;
@@ -89,6 +59,12 @@ header .icon {
 
 header .mobile {
   display: none;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  color: white;
 }
 
 @media only screen and (max-width: 760px) {
@@ -125,12 +101,25 @@ header .mobile {
 }
 
 /* Sign Up Section */
+/*
+.banner {
+  background-image: url('resources/images/banner-landingpage.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+*/
 
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+
+  background-image: url('../../resources/images/banner-landingpage.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #sign-up-cta {
@@ -138,6 +127,7 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin: 170px 0 170px 200px;
 }
 
 #sign-up-cta .content {
@@ -169,6 +159,14 @@ header .mobile {
   font-family: "Rubik", sans-serif;
   padding-bottom: .75rem;
 }
+
+/*
+#sign-up-cta .email {
+  margin: 12px 0 26px 0;
+  font-size: 20px;
+  line-height: 1.4;
+}
+*/
 
 #sign-up-cta .button {
   margin-top: 1.625rem;
@@ -223,6 +221,32 @@ header .mobile {
 
 /* Features Section */
 
+.main-content {
+  position: relative;
+  top: 5.3125rem; /* To offset for fixed header. */
+
+}
+
+.center {
+  text-align: center;
+}
+
+.image-container {
+  overflow: hidden;
+  }
+
+.image-container img {
+  display: block;
+  width: 90%;
+  height: 65%;
+}
+
+@media only screen and (max-width: 760px) {
+  .main-content {
+    top: 2.5625rem;
+  }
+}
+
 #features-section {
   display: flex;
   justify-content: space-between;
@@ -235,6 +259,7 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
+  height: 635px;
 }
 
 .feature .image-container {
