@@ -3,5 +3,45 @@ html {
 }
 
 body {
-  
+
+}
+
+/* NAV SECTION */
+header {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+.content {
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.mobile {
+  display: none;
+}
+
+.logo,
+.desktop {
+  padding: 0 30px;
+}
+
+
+
+.menu li
+{
+  display: inline;
+  padding-left: 3rem;
+}
+
+.desktop,
+.desktop li a{
+  text-decoration: none;
+  color: #4A4A4A;
+  font-size: 1rem;
+
 }
