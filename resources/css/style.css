@@ -67,7 +67,37 @@ header .mobile {
   color: white;
 }
 
+/*
+
 @media only screen and (max-width: 760px) {
+
+  nav li {
+  padding-left: 1.5rem;
+
+  }
+
+  header .mobile  {
+    display: block;
+
+  }
+
+  header .mobile img {
+    display: none;
+
+  }
+
+  header .mobile .button {
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+  }
+
+*/
+
+}
+
+@media only screen and (max-width: 450px) {
   header .desktop {
     display: none;
   }
@@ -99,6 +129,9 @@ header .mobile {
     color: white;
   }
 }
+
+
+
 
 /* Sign Up Section */
 /*
