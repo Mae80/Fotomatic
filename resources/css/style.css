@@ -466,18 +466,29 @@ header .mobile {
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
+
 }
 
 footer .content {
+  height: 62px;
   color: white;
   display: flex;
-  font-size: .75rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  padding: 0 32px 0 32px;
 }
 
+.copyright, .location {
+  font-size: 0.75rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*
 footer .copyright {
   flex-grow: 1;
 }
-
+*/
 @media only screen and (min-width: 760px) {
   footer .content {
     font-size: .625rem;
