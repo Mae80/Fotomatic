@@ -30,10 +30,7 @@ header {
   padding: 0 30px;
 }
 
-
-
-.menu li
-{
+.menu li {
   display: inline;
   padding-left: 3rem;
 }
@@ -43,5 +40,4 @@ header {
   text-decoration: none;
   color: #4A4A4A;
   font-size: 1rem;
-
 }
