@@ -261,9 +261,21 @@ header .mobile {
 
 }
 
+
+
 .center {
   text-align: center;
 }
+
+.center .content {
+  margin-top: 40px;
+}
+
+.content h2,
+.content h3 {
+  font-family: "Roboto", sans-serif;
+  }
+
 
 .image-container {
   overflow: hidden;
@@ -273,6 +285,7 @@ header .mobile {
   display: block;
   width: 90%;
   height: 65%;
+  margin: auto;
 }
 
 @media only screen and (max-width: 760px) {
